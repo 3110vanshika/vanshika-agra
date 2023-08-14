@@ -1,0 +1,136 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+/* navbar */
+.navbar {
+  position: relative;
+  padding: 20px;
+}
+
+.navbar .navbar-brand {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #000;
+  position: absolute;
+  left: 30px;
+}
+
+.navbar ul {
+  display: flex;
+  margin-left: 50%;
+  padding-top: 10px;
+  width: 700px;
+}
+
+.navbar ul li {
+  padding-left: 26px;
+  list-style: none;
+  position: relative;
+}
+
+.navbar ul li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.navbar ul li .submenu {
+  width: 200px;
+  position: absolute;
+  top: 100%; /* Adjust the positioning */
+  right: 0; /* Adjust the positioning */
+  display: none;
+}
+
+.navbar ul li:hover .submenu {
+  display: block;
+}
+
+
+/* AuthSection */
+.AuthSection{
+  height: 100vh;
+  position: relative;
+}
+.AuthImage{
+  position: absolute;
+  width: 50%;
+  height: 100vh;
+}
+.AuthImage img{
+  width: 100%;
+  height: 100%;
+}
+.AuthForm{
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100vh;
+}
+.AuthForm .Heading{
+  text-align: center;
+  margin-top: 20%;
+}
+.AuthForm .Form{
+  width: 600px;
+  margin-top: 10%;
+  margin-left: 15%;
+}
+.AuthForm .Form .mb{
+  margin-bottom: 20px;
+}
+.AuthForm .Form label{
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.AuthForm .Form input{
+  margin-top: 10px;
+  width: 600px;
+  height: 40px;
+}
+.AuthForm .Form .btn{
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-size: 1.3rem;
+}
+
+.Banner{
+  height: 400px;
+  background-image: url('../public/images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.CreateEvent{
+  width: 600px;
+  margin: 40px auto;
+}
+.CreateEvent form{
+  margin-top: 10%;
+}
+.CreateEvent form label{
+  margin-bottom: 10px;
+}
+.CreateEvent form input{
+  width: 600px;
+  margin-top: 10px;
+}
+
+/* EventSection */
+.EventSection{
+  padding: 50px;
+}
+.Events{
+}
+.Events img{
+  width: 100%;
+  height: 300px;
+}
+.Events .EventsTxt{
+  padding: 20px;
+}
